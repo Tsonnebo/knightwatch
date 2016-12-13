@@ -1,0 +1,18 @@
+{
+  "name": "knightwatch",
+  "description": "Demo of nightwatchjs",
+  "version": "0.0.0",
+  "author": {
+    "name": "Seve Kim",
+    "email": "sdkim@thoughtworks.com"
+  },
+  "devDependencies": {
+    "nightwatch": "^0.9.8",
+    "selenium-standalone": "^5.7.2",
+    "webdriver-manager": "^10.2.4"
+  },
+  "scripts": {
+    "e2e-setup": "./node_modules/webdriver-manager/bin/webdriver-manager update",
+    "e2e-test": "./node_modules/nightwatch/bin/nightwatch"
+  }
+}
